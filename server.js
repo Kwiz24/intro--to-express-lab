@@ -11,11 +11,15 @@ app.listen(3000, () => {
   
   // Define routes here:
 
+//   1. Be Polite, Greet the User
+  
 // app.get('/greetings/:username', (req, res) => {
 //     const username = req.params.username;
 //     const response = `Hello there, ${username}!`;
 //     res.send(response);
 // });
+
+// 2. Rolling the Dice
 
 // Route to handle /roll/:number
 // app.get('/roll/:number', (req, res) => {
@@ -32,6 +36,8 @@ app.listen(3000, () => {
 //         res.send(`You rolled a ${randomNumber}.`);
 //     }
 // });
+
+// 3. I Want THAT One!
 
 // Data
 // const collectibles = [
@@ -64,6 +70,8 @@ app.get('/hello', (req, res) => {
     // Constructing the response message using the query parameters
     res.send(`Hello there, ${name}! I hear you are ${age} years old!`);
 });
+
+// 4. Filter Shoes by Query Parameters
 
 // Shoes
 const shoes = [
